@@ -1,0 +1,2 @@
+C:\Program Files\nodejs\node.exe C:\Users\BrunoCesarZeulli\AppData\Roaming\npm\node_modules\@salesforce\cli\bin\run.js hardis:config:get --level user --jsonC:\Program Files\nodejs\node.exe C:\Users\BrunoCesarZeulli\AppData\Roaming\npm\node_modules\@salesforce\cli\bin\run.js hardis:config:get --level project --json[sfdx-hardis] {}
+[sfdx-hardis] {}

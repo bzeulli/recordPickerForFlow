@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="selectedRecord" type="String" label="RecordId Selecionado" />
+            <property name="label" type="String" label="Rótulo do Campo" description="Texto do rótulo exibido para o usuário" role="inputOnly"/>
+            <property name="objectApiName" type="String" label="Api Name do Objeto" role="inputOnly" />
+            <property name="fieldName" type="String" label="Campo identificado" description="Texto do rótulo exibido para o usuário" role="inputOnly" />
+            <property name="additionalFields" type="String" label="Campo identificado adicional" description="Campo adicional exibido para o usuário na parte de baixo do rótulo" role="inputOnly"/>
+            <property name="primaryFieldMatch" type="String" label="Campo de pesquisa" description="Qual campo do objeto será usado para a pesquisa. Apenas campos de texto e formula(texto)" role="inputOnly" />
+            <property name="additionalFieldMatch" type="String" label="Campo de pesquisa adicional" description="Qual campo adicional do objeto será usado para a pesquisa. Apenas campos de texto e formula(texto)" role="inputOnly" />
+            <property name="criteriaFieldPath" type="String" label="Filtro - Campo(s)" description="Adicione os campos separados por virgula" role="inputOnly" />
+            <property name="criteriaOperator" type="String" label="Filtro - Operador(es)" description="Adicione os operadores separados por virgula e seguindo a documentação em https://developer.salesforce.com/docs/component-library/bundle/lightning-record-picker/documentation" role="inputOnly" />
+            <property name="criteriaValue" type="String" label="Filtro - Valor(es)" description="Adicione os valores separados por virgula. Para valores de DATA usar DD/MM/AAAA ou literal:THIS_MONTH como exemplo." role="inputOnly" />
+            <property name="filterLogic" type="String" label="Lógica do filtro" description="Exemplo: 1 AND 2" role="inputOnly" />
+            <property name="required" type="Boolean" label="Require" description="True ou False" role="inputOnly" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
